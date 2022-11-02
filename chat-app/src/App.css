@@ -1,0 +1,27 @@
+*{
+    font-family: sans-serif;
+}
+.main{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     /* background-image: url('./back.jpg'); */
+    
+   
+}
+/* .App{
+    
+} */
+.label{
+    background-color: yellow;
+    padding: 18px;
+    margin: 10px;
+}
+.container{
+    display: grid;
+    gap: 20px;
+    padding-right: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
